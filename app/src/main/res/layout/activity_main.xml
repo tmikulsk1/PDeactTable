@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tmikulsk1.pdeacttable.MainActivity">
+
+    <!-- 1st line of knobs -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:padding="0dp">
+
+                <it.beppi.knoblibrary.Knob
+
+                    android:id="@+id/knob1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    app:kAnimationSpeed="5"
+                    app:kBalloonValuesRelativePosition="0"
+                    app:kCircularIndicatorColor="@color/red_400"
+                    app:kCircularIndicatorRelativePosition="0.9"
+                    app:kCircularIndicatorRelativeRadius="0.03"
+                    app:kDefaultState="25"
+                    app:kFreeRotation="false"
+                    app:kIndicatorRelativeLength="0"
+                    app:kKnobDrawable="@drawable/ico1"
+                    app:kKnobDrawableRotates="false"
+                    app:kKnobRelativeRadius="0.8"
+                    app:kMaxAngle="120"
+                    app:kMinAngle="-120"
+                    app:kNumberOfStates="50"
+                    app:kSelectedStateMarkerColor="@color/green_a200"
+                    app:kSelectedStateMarkerContinuous="true"
+                    app:kShowBalloonValues="true"
+                    app:kStateMarkersAccentColor="@color/grey_800"
+                    app:kStateMarkersAccentRelativeLength="100"
+                    app:kStateMarkersAccentWidth="2dp"
+                    app:kStateMarkersColor="@color/grey_800"
+                    app:kStateMarkersRelativeLength="0.08"
+                    app:kStateMarkersWidth="1.5dp"
+                    app:kSwipe="circular" />
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="25dp"
+                    android:layout_above="@id/knob1"
+                    android:src="@drawable/ico1" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TRACK #1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:padding="0dp">
+
+                <it.beppi.knoblibrary.Knob
+                    android:id="@+id/knob2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    app:kAnimationSpeed="5"
+                    app:kBalloonValuesRelativePosition="0"
+                    app:kCircularIndicatorColor="@color/red_400"
+                    app:kCircularIndicatorRelativePosition="0.9"
+                    app:kCircularIndicatorRelativeRadius="0.03"
+                    app:kDefaultState="25"
+                    app:kFreeRotation="false"
+                    app:kIndicatorRelativeLength="0"
+                    app:kKnobDrawable="@drawable/ico1"
+                    app:kKnobDrawableRotates="false"
+                    app:kKnobRelativeRadius="0.8"
+                    app:kMaxAngle="120"
+                    app:kMinAngle="-120"
+                    app:kNumberOfStates="50"
+                    app:kSelectedStateMarkerColor="@color/green_a200"
+                    app:kSelectedStateMarkerContinuous="true"
+                    app:kShowBalloonValues="true"
+                    app:kStateMarkersAccentColor="@color/grey_800"
+                    app:kStateMarkersAccentRelativeLength="100"
+                    app:kStateMarkersAccentWidth="2dp"
+                    app:kStateMarkersColor="@color/grey_800"
+                    app:kStateMarkersRelativeLength="0.08"
+                    app:kStateMarkersWidth="1.5dp"
+                    app:kSwipe="circular" />
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="25dp"
+                    android:layout_above="@id/knob2"
+                    android:src="@drawable/ico1" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TRACK #2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:padding="0dp">
+
+                <it.beppi.knoblibrary.Knob
+                    android:id="@+id/knob3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    app:kAnimationSpeed="5"
+                    app:kBalloonValuesRelativePosition="0"
+                    app:kCircularIndicatorColor="@color/red_400"
+                    app:kCircularIndicatorRelativePosition="0.9"
+                    app:kCircularIndicatorRelativeRadius="0.03"
+                    app:kDefaultState="25"
+                    app:kFreeRotation="false"
+                    app:kIndicatorRelativeLength="0"
+                    app:kKnobDrawable="@drawable/ico1"
+                    app:kKnobDrawableRotates="false"
+                    app:kKnobRelativeRadius="0.8"
+                    app:kMaxAngle="120"
+                    app:kMinAngle="-120"
+                    app:kNumberOfStates="50"
+                    app:kSelectedStateMarkerColor="@color/green_a200"
+                    app:kSelectedStateMarkerContinuous="true"
+                    app:kShowBalloonValues="true"
+                    app:kStateMarkersAccentColor="@color/grey_800"
+                    app:kStateMarkersAccentRelativeLength="100"
+                    app:kStateMarkersAccentWidth="2dp"
+                    app:kStateMarkersColor="@color/grey_800"
+                    app:kStateMarkersRelativeLength="0.08"
+                    app:kStateMarkersWidth="1.5dp"
+                    app:kSwipe="circular" />
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="25dp"
+                    android:layout_above="@id/knob3"
+                    android:src="@drawable/ico1" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TRACK #3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:padding="0dp">
+
+                <it.beppi.knoblibrary.Knob
+                    android:id="@+id/knob4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    app:kAnimationSpeed="5"
+                    app:kBalloonValuesRelativePosition="0"
+                    app:kCircularIndicatorColor="@color/red_400"
+                    app:kCircularIndicatorRelativePosition="0.9"
+                    app:kCircularIndicatorRelativeRadius="0.03"
+                    app:kDefaultState="25"
+                    app:kFreeRotation="false"
+                    app:kIndicatorRelativeLength="0"
+                    app:kKnobDrawable="@drawable/ico1"
+                    app:kKnobDrawableRotates="false"
+                    app:kKnobRelativeRadius="0.8"
+                    app:kMaxAngle="120"
+                    app:kMinAngle="-120"
+                    app:kNumberOfStates="50"
+                    app:kSelectedStateMarkerColor="@color/green_a200"
+                    app:kSelectedStateMarkerContinuous="true"
+                    app:kShowBalloonValues="true"
+                    app:kStateMarkersAccentColor="@color/grey_800"
+                    app:kStateMarkersAccentRelativeLength="100"
+                    app:kStateMarkersAccentWidth="2dp"
+                    app:kStateMarkersColor="@color/grey_800"
+                    app:kStateMarkersRelativeLength="0.08"
+                    app:kStateMarkersWidth="1.5dp"
+                    app:kSwipe="circular" />
+
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="25dp"
+                    android:layout_above="@id/knob4"
+                    android:src="@drawable/ico1" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TRACK #4" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- 2nd line of knobs-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:padding="0dp">
+
+                <it.beppi.knoblibrary.Knob
+                    android:id="@+id/knob5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    app:kAnimationSpeed="5"
+                    app:kBalloonValuesRelativePosition="0"
+                    app:kCircularIndicatorColor="@color/red_400"
+                    app:kCircularIndicatorRelativePosition="0.9"
+                    app:kCircularIndicatorRelativeRadius="0.03"
+                    app:kDefaultState="25"
+                    app:kFreeRotation="false"
+                    app:kIndicatorRelativeLength="0"
+                    app:kKnobDrawable="@drawable/ico1"
+                    app:kKnobDrawableRotates="false"
+                    app:kKnobRelativeRadius="0.8"
+                    app:kMaxAngle="120"
+                    app:kMinAngle="-120"
+                    app:kNumberOfStates="50"
+                    app:kSelectedStateMarkerColor="@color/green_a200"
+                    app:kSelectedStateMarkerContinuous="true"
+                    app:kShowBalloonValues="true"
+                    app:kStateMarkersAccentColor="@color/grey_800"
+                    app:kStateMarkersAccentRelativeLength="100"
+                    app:kStateMarkersAccentWidth="2dp"
+                    app:kStateMarkersColor="@color/grey_800"
+                    app:kStateMarkersRelativeLength="0.08"
+                    app:kStateMarkersWidth="1.5dp"
+                    app:kSwipe="circular" />
+
+                <ImageView
+                    android:id="@+id/image5"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="25dp"
+                    android:layout_above="@id/knob5"
+                    android:src="@drawable/ico1" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TRACK #5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:padding="0dp">
+
+                <it.beppi.knoblibrary.Knob
+                    android:id="@+id/knob6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    app:kAnimationSpeed="5"
+                    app:kBalloonValuesRelativePosition="0"
+                    app:kCircularIndicatorColor="@color/red_400"
+                    app:kCircularIndicatorRelativePosition="0.9"
+                    app:kCircularIndicatorRelativeRadius="0.03"
+                    app:kDefaultState="25"
+                    app:kFreeRotation="false"
+                    app:kIndicatorRelativeLength="0"
+                    app:kKnobDrawable="@drawable/ico1"
+                    app:kKnobDrawableRotates="false"
+                    app:kKnobRelativeRadius="0.8"
+                    app:kMaxAngle="120"
+                    app:kMinAngle="-120"
+                    app:kNumberOfStates="50"
+                    app:kSelectedStateMarkerColor="@color/green_a200"
+                    app:kSelectedStateMarkerContinuous="true"
+                    app:kShowBalloonValues="true"
+                    app:kStateMarkersAccentColor="@color/grey_800"
+                    app:kStateMarkersAccentRelativeLength="100"
+                    app:kStateMarkersAccentWidth="2dp"
+                    app:kStateMarkersColor="@color/grey_800"
+                    app:kStateMarkersRelativeLength="0.08"
+                    app:kStateMarkersWidth="1.5dp"
+                    app:kSwipe="circular" />
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="25dp"
+                    android:layout_above="@id/knob6"
+                    android:src="@drawable/ico1" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TRACK #6" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:padding="0dp">
+
+                <it.beppi.knoblibrary.Knob
+                    android:id="@+id/knob7"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    app:kAnimationSpeed="5"
+                    app:kBalloonValuesRelativePosition="0"
+                    app:kCircularIndicatorColor="@color/red_400"
+                    app:kCircularIndicatorRelativePosition="0.9"
+                    app:kCircularIndicatorRelativeRadius="0.03"
+                    app:kDefaultState="25"
+                    app:kFreeRotation="false"
+                    app:kIndicatorRelativeLength="0"
+                    app:kKnobDrawable="@drawable/ico1"
+                    app:kKnobDrawableRotates="false"
+                    app:kKnobRelativeRadius="0.8"
+                    app:kMaxAngle="120"
+                    app:kMinAngle="-120"
+                    app:kNumberOfStates="50"
+                    app:kSelectedStateMarkerColor="@color/green_a200"
+                    app:kSelectedStateMarkerContinuous="true"
+                    app:kShowBalloonValues="true"
+                    app:kStateMarkersAccentColor="@color/grey_800"
+                    app:kStateMarkersAccentRelativeLength="100"
+                    app:kStateMarkersAccentWidth="2dp"
+                    app:kStateMarkersColor="@color/grey_800"
+                    app:kStateMarkersRelativeLength="0.08"
+                    app:kStateMarkersWidth="1.5dp"
+                    app:kSwipe="circular" />
+
+
+                <ImageView
+                    android:id="@+id/image7"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="25dp"
+                    android:layout_above="@id/knob7"
+                    android:src="@drawable/ico1" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TRACK #7" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <it.beppi.knoblibrary.Knob
+                android:id="@+id/knob8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                app:kAnimationSpeed="5"
+                app:kBalloonValuesRelativePosition="0"
+                app:kCircularIndicatorColor="@color/red_400"
+                app:kCircularIndicatorRelativePosition="0.9"
+                app:kCircularIndicatorRelativeRadius="0.03"
+                app:kDefaultState="25"
+                app:kFreeRotation="false"
+                app:kIndicatorRelativeLength="0"
+                app:kKnobDrawable="@drawable/ico3"
+                app:kKnobDrawableRotates="false"
+                app:kKnobRelativeRadius="0.8"
+                app:kMaxAngle="120"
+                app:kMinAngle="-120"
+                app:kNumberOfStates="50"
+                app:kSelectedStateMarkerColor="@color/green_a200"
+                app:kSelectedStateMarkerContinuous="true"
+                app:kShowBalloonValues="true"
+                app:kStateMarkersAccentColor="@color/grey_800"
+                app:kStateMarkersAccentRelativeLength="100"
+                app:kStateMarkersAccentWidth="2dp"
+                app:kStateMarkersColor="@color/grey_800"
+                app:kStateMarkersRelativeLength="0.08"
+                app:kStateMarkersWidth="1.5dp"
+                app:kSwipe="circular" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TRACK #8" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

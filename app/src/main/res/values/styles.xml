@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- FULL SCREEN -  change "style" > "parent" to: Theme.AppCompat.NoActionBar -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
